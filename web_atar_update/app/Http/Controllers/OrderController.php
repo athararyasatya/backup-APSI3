@@ -33,7 +33,7 @@ class OrderController extends Controller
             'nama_lengkap' => 'required',
             'nomor_telepon' => 'required',
             'tanggal_order' => 'required|date',
-            'paket' => 'required|in:paket 1,paket 2,paket 3',  // Menambahkan validasi untuk paket
+            'pilih_paket' => 'required|in:paket 5kg,paket 10kg,paket 15kg',  // Menambahkan validasi untuk paket
             'jumlah_pair_pasang' => 'nullable|numeric',
             'expedisi' => 'required|in:JNE,Tiki,POS Indonesia', // Menambahkan validasi untuk expedisi
             'alamat' => 'required',

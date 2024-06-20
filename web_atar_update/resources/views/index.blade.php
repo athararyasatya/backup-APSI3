@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>WebGuppyAfr</title>
+    <title>Untung aw</title>
     <link rel="stylesheet" href="css/stylee.css">
     <link rel="icon" href="Foto/fish.png">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -152,7 +152,7 @@
               </div>
               <div data-aos="fade-left">
                 <div  class="card text-center">
-                    <img src="Foto/bawall.png" alt="Stok Gallery" loading="lazy">
+                    <img src="Foto/bawalll.png" alt="Stok Gallery" loading="lazy">
                     <div class="Content d-grid gap-4">
                         <p><b>Bawal</b></p>
                         <p>Rp. 25.000/Gram</p>
@@ -188,9 +188,9 @@
               </div>
               <div data-aos="fade-left">
                 <div class="card text-center">
-                    <img src="Foto/nila.png" alt="Stok Gallery" loading="lazy">
+                    <img src="Foto/tuna.png" alt="Stok Gallery" loading="lazy">
                     <div class="Content d-grid gap-4">
-                        <p><b>Nila</b></p>
+                        <p><b>Tuna</b></p>
                         <p>Rp. 50.000/Gram</p>
                     </div>
                 </div>
@@ -226,8 +226,8 @@
             <div class="paket-card " >
                
               <h2>Paket 10Kg</h2>
-                <h4>Ikan Nila</h4>
-                <span class="harga">240k</span>
+                <h4>Ikan Tuna</h4>
+                <span class="harga">380k</span>
               <h3>Benefit</h3>
               <ul class="txt">
                 <li> <img src="Foto/centang.png" alt="ctg" loading="lazy">10Kg Ikan Salmon</li>
@@ -243,7 +243,7 @@
                
               <h2>Paket 15Kg </h2>
                 <h4>Ikan Kakap</h4>
-                <span class="harga">240k</span>
+                <span class="harga">510k</span>
               <h3>Benefit</h3>
               <ul class="txt">
                 <li> <img src="Foto/centang.png" alt="ctg" loading="lazy">15Kg Ikan kakap</li>
@@ -292,12 +292,12 @@
 
      
       <div  data-aos="fade-left" class="inputorder">
-        <label for="paket">Paket :</label>
-        <select name="paket" id="paket" required>
+        <label for="pilih_paket">pilih :</label>
+        <select name="pilih_paket" id="paket" required>
           <option value="">Pilih Paket</option>
-          <option value="paket 1">paket 1</option>
-          <option value="paket 2">paket 2</option>
-          <option value="paket 3">paket 3</option>
+          <option value="paket 5kg">paket 5kg</option>
+          <option value="paket 10kg">paket 10kg</option>
+          <option value="paket 15kg">paket 15kg</option>
           <!-- Tambahkan pilihan ekspedisi lainnya sesuai kebutuhan -->
         </select>
       </div>
@@ -431,7 +431,7 @@
                                               case 'tanggal_order':
                                                   message += `Tanggal Order: ${value}\n`;
                                                   break;
-                                              case 'paket':
+                                              case 'pilih_paket':
                                                   message += `Paket: ${value}\n`;
                                                   break;
                                               case 'jumlah_pair_pasang':
